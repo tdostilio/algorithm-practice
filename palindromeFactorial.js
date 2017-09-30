@@ -27,6 +27,10 @@ var isPalindrome = function(str) {
     return isPalindrome(middleCharacters(str));
 };
 
+
+
+
+//TEST
 var checkPalindrome = function(str) {
     println("Is this word a palindrome? " + str);
     println(isPalindrome(str));
